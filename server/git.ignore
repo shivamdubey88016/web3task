@@ -1,0 +1,60 @@
+
+- 
++ # Node
++ node_modules/
++ 
++ # Server & frontend env files
++ .env
++ server/.env
++ frontend/.env
++ .env.local
++ .env.*.local
++ 
++ # Build outputs
++ dist/
++ frontend/dist/
++ build/
++ 
++ # Vite cache
++ .vite/
++ 
++ # Logs
++ logs/
++ *.log
++ npm-debug.log*
++ 
++ # Runtime data
++ pids/
++ *.pid
++ *.pid.lock
++ 
++ # Coverage
++ coverage/
++ .nyc_output/
++ 
++ # OS files
++ .DS_Store
++ Thumbs.db
++ 
++ # Editor directories and files
++ .vscode/
++ .idea/
++ 
++ # Misc
++ *.sqlite
++ *.sqlite3
++ coverage/
++ 
++ # Lockfiles (keep if you rely on them in repo)
++ # package-lock.json
++ # yarn.lock
++ 
++ # Socket files
++ *.sock
++ 
++ # Ignore local JetBrains settings
++ .idea/
++ 
++ # Optional: ignore built frontend artifacts if you don't commit them
++ # frontend/dist/
++ 
